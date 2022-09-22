@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="bgimg">
+        <h1>TODO LIST</h1>
+        <div class="write">
+            <input type="text" placeholder="新增待辦事項" name="todos">
+            <button type="submit" class="add"><i class="fi fi-br-plus"></i></button>
+        </div>
+        <div class="list">
+            <div class="top">
+                <section class="active">
+                    <h2>全部</h2>
+                </section>
+                <section>
+                    <h2>待完成</h2>
+                </section>
+                <section>
+                    <h2>已完成</h2>
+                </section>
+            </div>
+            <div class="middle">
+                <ul>
+                </ul>
+            </div>
+            <div class="down">
+                <h5><span class="num">0</span>個待完成項目</h5>
+                <button class="clearAll">清除已完成項目</button>
+            </div>
+        </div>
+    </div>
+    <script src="./style/js/index.js"></script>
+</body>
+
+</html>

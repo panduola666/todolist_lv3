@@ -1,0 +1,15 @@
+{
+  "name": "todolist-lv3",
+  "version": "1.0.0",
+  "description": "六角練習TODOLIST-LV3",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ./api/db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "圈圈",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
