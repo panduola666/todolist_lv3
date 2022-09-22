@@ -1,8 +1,9 @@
 # todolist_lv3
 ### 開始使用
-打開json-server
+打開json-server，二者方式擇一：
 ```
 npm start
+npm json-server --watch ./api/db.json
 ```
 ### 基本操作
 1.默認頁面：全部的代辦事件
